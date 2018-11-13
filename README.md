@@ -4,6 +4,7 @@ vue picture component. Resize and preview your uploaded image
 ### 使用指南
 ``` javascript
 import iImageUpload from 'i-image-upload'
+import 'i-image-upload/dist/i-image-upload.css'
 
 Vue.use(iImageUpload)
 ```
