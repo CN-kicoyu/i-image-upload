@@ -1,0 +1,31 @@
+{
+  "name": "i-image-upload",
+  "version": "1.0.1",
+  "description": "vue picture component. Resize and preview your uploaded image",
+  "main": "dist/i-image-upload.js",
+  "module": "dist/i-image-upload.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CN-kicoyu/i-image-upload.git"
+  },
+  "keywords": [
+    "vue",
+    "upload",
+    "uploader",
+    "img",
+    "image",
+    "component",
+    "avatar"
+  ],
+  "author": "kicoyu < kicoyu@126.com >",
+  "license": "MIT",
+  "dependencies": {
+    "blueimp-canvas-to-blob": "^3.14.0",
+    "exif-js": "^2.3.0",
+    "vue": "^2.5.2"
+  }
+}
